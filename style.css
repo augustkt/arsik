@@ -1,0 +1,41 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+body {
+	background-image: url(cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL3NtYWxsZGVzaWduY29tcGFueTAxX2FfY3V0ZV9pbGx1c3RyYXRpb25fb2ZfY29tcGFjdF9jaXR5X3ZpZXdfbV8yOWUwZDM5YS02MjI3LTQ4NjktODUwNi0wODIwMjFjN2IxODlfMS5qcGc.webp);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+p {
+	background-color: white;
+	font-size: 20px;
+}
+
+#gif {
+  width: 300px; /* Укажите размер гифки */
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
